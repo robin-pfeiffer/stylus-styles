@@ -1,8 +1,0 @@
-section[class^='livestream_'] > div[class^='container_'] > div[class^='meta_'] {
-    grid-column: 1/4;
-}
-
-section[class^='livestream_'] > div[class^='container_'] > div[class^='stream_'] {
-    grid-column: 1/10;
-    margin-bottom: 2em;
-}

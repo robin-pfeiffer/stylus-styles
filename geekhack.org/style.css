@@ -1,8 +1,0 @@
-@-moz-document domain("geekhack.org") {
-#header,
-#content_section,
-#footer_section {
-    max-width: 128ch;
-    margin: auto;
-}
-}
