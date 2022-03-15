@@ -12,10 +12,16 @@ Custom adjustment to stylesheets for various sites that I use. Deploy with the S
 
 [Install](https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/f1tv.formula1.com.user.css)
 
+Tweak to make player screen width size outside of fullscreen mode.
+
 ### geekhack.org
 
 [Install](https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/geekhack.org.user.css)
 
+Tweak to make Geekhack main content 128 characters wide.
+
 ### nos.nl
 
 [Install](https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/nos.nl.user.css)
+
+Tweak to make player screen a little bit wider, moves title under the player window.
