@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name           f1tv-player
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Tweak to make player screen width size outside of fullscreen mode.
+@author         robin-pfeiffer
+@hompageURL     https://github.com/robin-pfeiffer/stylus-styles
+@updateURL      https://github.com/robin-pfeiffer/stylus-styles/raw/main/f1tv.formula1.com.user.css
+==UserStyle== */
+
 main > div.container-xl:first-child,
 main > div.container-lg:first-child,
 main > div.container-md:first-child,

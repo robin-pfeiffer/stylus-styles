@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name           nos-player
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Tweak to make player screen a little bit wider, moves title under the player window.
+@author         robin-pfeiffer
+@hompageURL     https://github.com/robin-pfeiffer/stylus-styles
+@updateURL      https://github.com/robin-pfeiffer/stylus-styles/raw/main/nos.nl.user.css
+==UserStyle== */
+
 section[class^='livestream_'] > div[class^='container_'] > div[class^='meta_'] {
     grid-column: 1/4;
 }
