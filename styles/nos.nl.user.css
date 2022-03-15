@@ -6,7 +6,7 @@
 @author         robin-pfeiffer
 @hompageURL     https://github.com/robin-pfeiffer/stylus-styles
 @updateURL      https://github.com/robin-pfeiffer/stylus-styles/raw/main/nos.nl.user.css
-==UserStyle== */
+==/UserStyle== */
 
 section[class^='livestream_'] > div[class^='container_'] > div[class^='meta_'] {
     grid-column: 1/4;
