@@ -1,11 +1,13 @@
 /* ==UserStyle==
 @name           geekhack
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
+@namespace      rbn.dev
+@version        1.1.0
 @description    Tweak to make Geekhack main content 128 characters wide.
-@author         robin-pfeiffer
-@hompageURL     https://github.com/robin-pfeiffer/stylus-styles
+@author         Robin Pfeiffer [contact@rbn.dev] (https://rbn.dev)
+@homepageURL    https://github.com/robin-pfeiffer/stylus-styles
+@supportURL     https://github.com/robin-pfeiffer/stylus-styles/issues
 @updateURL      https://github.com/robin-pfeiffer/stylus-styles/raw/main/geekhack.org.user.css
+@license        MIT License
 ==/UserStyle== */
 
 @-moz-document domain("geekhack.org") {

@@ -1,51 +1,55 @@
 /* ==UserStyle==
 @name           f1tv-player
-@namespace      github.com/openstyles/stylus
-@version        1.0.0
+@namespace      rbn.dev
+@version        1.1.0
 @description    Tweak to make player screen width size outside of fullscreen mode.
-@author         robin-pfeiffer
-@hompageURL     https://github.com/robin-pfeiffer/stylus-styles
+@author         Robin Pfeiffer [contact@rbn.dev] (https://rbn.dev)
+@homepageURL    https://github.com/robin-pfeiffer/stylus-styles
+@supportURL     https://github.com/robin-pfeiffer/stylus-styles/issues
 @updateURL      https://github.com/robin-pfeiffer/stylus-styles/raw/main/f1tv.formula1.com.user.css
+@license        MIT License
 ==/UserStyle== */
 
-main > div.container-xl:first-child,
-main > div.container-lg:first-child,
-main > div.container-md:first-child,
-main > div.container-sm:first-child,
-main > div.container:first-child {
-    max-width: 100%;
-    padding: 0;
-}
+@-moz-document domain("f1tv.formula1.com") {
+    main > div.container-xl:first-child,
+    main > div.container-lg:first-child,
+    main > div.container-md:first-child,
+    main > div.container-sm:first-child,
+    main > div.container:first-child {
+        max-width: 100%;
+        padding: 0;
+    }
 
-div.container-xl:first-child > div.row,
-div.container-lg:first-child > div.row,
-div.container-md:first-child > div.row,
-div.container-sm:first-child > div.row,
-div.container:first-child > div.row {
-    margin-right: 0;
-    margin-left: 0;
-}
+    div.container-xl:first-child > div.row,
+    div.container-lg:first-child > div.row,
+    div.container-md:first-child > div.row,
+    div.container-sm:first-child > div.row,
+    div.container:first-child > div.row {
+        margin-right: 0;
+        margin-left: 0;
+    }
 
-div.container-xl:first-child > div.row > div:first-child,
-div.container-lg:first-child > div.row > div:first-child,
-div.container-md:first-child > div.row > div:first-child,
-div.container-sm:first-child > div.row > div:first-child,
-div.container:first-child > div.row > div:first-child {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    flex-basis: 100%;
-}
+    div.container-xl:first-child > div.row > div:first-child,
+    div.container-lg:first-child > div.row > div:first-child,
+    div.container-md:first-child > div.row > div:first-child,
+    div.container-sm:first-child > div.row > div:first-child,
+    div.container:first-child > div.row > div:first-child {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
 
-.inset-video-item-container {
-    margin-top: 0 !important;
-}
+    .inset-video-item-container {
+        margin-top: 0 !important;
+    }
 
-.inset-video-item-container > .inset-video-item-image-container {
-    min-height: 517px;
-    height: 75vh;
-}
+    .inset-video-item-container > .inset-video-item-image-container {
+        min-height: 517px;
+        height: 75vh;
+    }
 
-.inset-video-item-container > .inset-video-item-image-container >  .inset-video-item-play-action-container {
-    width: 100%;
+    .inset-video-item-container > .inset-video-item-image-container >  .inset-video-item-play-action-container {
+        width: 100%;
+    }
 }
