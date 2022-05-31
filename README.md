@@ -25,3 +25,9 @@ Tweak to make Geekhack main content 128 characters wide.
 [Install](https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/nos.nl.user.css)
 
 Tweak to make player screen a little bit wider, moves title under the player window.
+
+### postgresql.org/docs
+
+[Install](https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/postgresql.org.user.css)
+
+Tweak to make PostgreSQL docs content 80 characters wide.
