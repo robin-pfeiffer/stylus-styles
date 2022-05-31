@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           postgresql
+@namespace      rbn.dev
+@version        1.0.0
+@description    Restrict content to 80 characters in width.
+@author         Robin Pfeiffer [contact@rbn.dev] (https://rbn.dev)
+@homepageURL    https://github.com/robin-pfeiffer/stylus-styles
+@supportURL     https://github.com/robin-pfeiffer/stylus-styles/issues
+@updateURL      https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/postgresql.org.user.css
+@license        MIT License
+==/UserStyle== */
+
+@-moz-document regexp(".*postgresql.org/docs.*") {
+    #pgContentWrap {
+        max-width: 80ch;
+    }
+}
