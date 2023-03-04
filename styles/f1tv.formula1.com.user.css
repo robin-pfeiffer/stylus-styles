@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           f1tv-player
 @namespace      rbn.dev
-@version        1.1.1
+@version        1.2.0
 @description    Tweak to make player screen width size outside of fullscreen mode.
 @author         Robin Pfeiffer [contact@rbn.dev] (https://rbn.dev)
 @homepageURL    https://github.com/robin-pfeiffer/stylus-styles
@@ -46,7 +46,7 @@
 
     .inset-video-item-container > .inset-video-item-image-container {
         min-height: 517px;
-        height: 75vh;
+        height: 80vh;
     }
 
     .inset-video-item-container > .inset-video-item-image-container >  .inset-video-item-play-action-container {
