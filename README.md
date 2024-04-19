@@ -32,8 +32,3 @@ Tweak to make player screen a little bit wider, moves title under the player win
 
 Tweak to make PostgreSQL docs content 80 characters wide.
 
-### sendico.com
-
-[Install](https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/sendico.com.user.css)
-
-Fix image-viewer aspect ratio.
