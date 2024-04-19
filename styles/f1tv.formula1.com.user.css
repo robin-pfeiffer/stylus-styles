@@ -37,7 +37,8 @@
         margin-left: 20vw;
 
         .inset-video-item-data.card-body {
-          h5 {
+          h5,
+          p.inset-video-item-long-description {
             width: fit-content;
           }
         }
