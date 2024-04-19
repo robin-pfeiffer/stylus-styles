@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           f1tv-player
 @namespace      rbn.dev
-@version        1.2.0
-@description    Tweak to make player screen width size outside of fullscreen mode.
+@version        2.0.0
+@description    Tweak to make the F1TV player full-width outside of fullscreen mode.
 @author         Robin Pfeiffer [contact@rbn.dev] (https://rbn.dev)
 @homepageURL    https://github.com/robin-pfeiffer/stylus-styles
 @supportURL     https://github.com/robin-pfeiffer/stylus-styles/issues
@@ -11,45 +11,30 @@
 ==/UserStyle== */
 
 @-moz-document domain("f1tv.formula1.com") {
-    main > div.container-xl:first-child,
-    main > div.container-lg:first-child,
-    main > div.container-md:first-child,
-    main > div.container-sm:first-child,
-    main > div.container:first-child {
-        max-width: 100%;
-        padding: 0;
-    }
+  .content main.vod-detail-page .container:first-child {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
 
-    div.container-xl:first-child > div.row,
-    div.container-lg:first-child > div.row,
-    div.container-md:first-child > div.row,
-    div.container-sm:first-child > div.row,
-    div.container:first-child > div.row {
-        margin-right: 0;
-        margin-left: 0;
-    }
+    .inset-video-item-container.f1-padding {
+      max-width: 100%;
+      padding: 0;
 
-    div.container-xl:first-child > div.row > div:first-child,
-    div.container-lg:first-child > div.row > div:first-child,
-    div.container-md:first-child > div.row > div:first-child,
-    div.container-sm:first-child > div.row > div:first-child,
-    div.container:first-child > div.row > div:first-child {
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
-        flex-basis: 100%;
-    }
+      .inset-video-item-image-container {
+        height: 72.5vh;
+      }
 
-    .inset-video-item-container {
-        margin-top: 0 !important;
-    }
+      .inset-video-item-controls-container {
+        padding: 0 5rem;
+        width: fit-content;
+        margin-left: 20vw;
 
-    .inset-video-item-container > .inset-video-item-image-container {
-        min-height: 517px;
-        height: 80vh;
+        .inset-video-item-data.card-body {
+          h5 {
+            width: fit-content;
+          }
+        }
+      }
     }
-
-    .inset-video-item-container > .inset-video-item-image-container >  .inset-video-item-play-action-container {
-        width: 100%;
-    }
+  }
 }
