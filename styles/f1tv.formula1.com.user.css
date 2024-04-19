@@ -22,6 +22,13 @@
 
       .inset-video-item-image-container {
         height: 72.5vh;
+
+        .inset-video-item-play-action-container,
+        img.inset-video-item-image.img-loaded {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
       }
 
       .inset-video-item-controls-container {
