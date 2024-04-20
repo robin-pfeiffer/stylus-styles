@@ -12,7 +12,7 @@ Custom adjustment to stylesheets for various sites that I use. Deploy with the S
 
 [Install](https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/f1tv.formula1.com.user.css)
 
-Tweak to make player screen width size outside of fullscreen mode.
+Tweak to make the F1TV player full-width outside of fullscreen mode.
 
 ### geekhack.org
 
