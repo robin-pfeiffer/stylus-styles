@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           f1tv-player
 @namespace      robinpfeiffer.nl
-@version        2.2.0
+@version        2.3.0
 @description    Tweak to make the F1TV player full-width outside of fullscreen mode.
 @author         Robin Pfeiffer [contact@robinpfeiffer.nl] (https://www.robinpfeiffer.nl)
 @homepageURL    https://github.com/robin-pfeiffer/stylus-styles
@@ -11,6 +11,10 @@
 ==/UserStyle== */
 
 @-moz-document domain("f1tv.formula1.com") {
+  .navbar-nav > .nav-button > .btn-sparkle-outline {
+    display: none;
+  }
+
   .content main.vod-detail-page .container:first-child {
     padding-left: 0;
     padding-right: 0;
