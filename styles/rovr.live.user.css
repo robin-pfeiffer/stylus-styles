@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           rovr-live
+@namespace      robinpfeiffer.nl
+@version        1.0.0
+@description    Tweak to be able to select and copy text such as current song info from the page.
+@author         Robin Pfeiffer [contact@robinpfeiffer.nl] (https://www.robinpfeiffer.nl)
+@homepageURL    https://github.com/robin-pfeiffer/stylus-styles
+@supportURL     https://github.com/robin-pfeiffer/stylus-styles/issues
+@updateURL      https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/rovr.live.user.css
+@license        MIT License
+==/UserStyle== */
+
+@-moz-document domain("rovr.live") {
+  .show__info * {
+    -webkit-user-select: text !important;
+    user-select: text !important;
+  }
+}

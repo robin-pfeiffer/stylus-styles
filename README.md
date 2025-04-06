@@ -26,3 +26,8 @@ Tweak to make Geekhack main content 128 characters wide.
 
 Tweak to make PostgreSQL docs content 80 characters wide.
 
+### rovr.live
+
+[Install](https://github.com/robin-pfeiffer/stylus-styles/raw/main/styles/rovr.live.user.css)
+
+Tweak to be able to select and copy text such as current song info from the page.
